@@ -1,0 +1,6 @@
+/* Tipos de format()
+        - opentype=(otf)
+        - truetype= (ttf)
+        - enbedded-opentype
+        - truetype-aat (apple advanced typography)
+        -svg*/

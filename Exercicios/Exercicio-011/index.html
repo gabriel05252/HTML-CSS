@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem dinamica</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Tente abrir esta imagem em diferentes dispositivos ou simplesmente aumente ou diminua o tamanho do seu navegador
+        <br>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagem/imagem.pequena.png">
+        <source media="(max-width: 1050px)" srcset="imagem/imagem.media.png">
+        <img src="imagem/imagem.grande.png" alt="Imagem flexivel">
+    </picture>
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a Reproduzir Audios em HTML5</p>
+    <audio preload="metadata" controls loop> 
+    
+   <source src="midia/2hollis - crush (official audio) [bx5vUFzN4a8].mp3" type="audio/mpeg">
+   <source src="midia/2hollis - crush (official audio) [bx5vUFzN4a8].mp3" type="audio/wav">
+   <source src="midia/2hollis - crush (official audio) [bx5vUFzN4a8].mp3" type="audio/ogg">
+    
+    
+    </audio>
+    <h1>Reproduzindo Video</h1>
+        
+</html>
