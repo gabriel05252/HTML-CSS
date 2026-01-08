@@ -1,32 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
+        body {
+            /*
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: top center;
-            background-repeat: no-repeat;
-            
+            background-repeat: repeat-y;
+            background-size: cover;
+            background-attachment: scroll
+
+            shorthand:
+
+            o background size nao esta funcionando na shorthand. Tome cuidado guerreiro
+            ;*/
+
+            background: black url(imagens/wallpaper002.jpg) center no-repeat fixed;
+            background-size: cover;
         }
-        main{
+
+        main {
             background-color: white;
-            width: 400px;
+            max-width: 200px;
             padding: 10px;
             margin: auto;
             border-radius: 5px;
             border: 1px solid black;
-            
+
+        }
+
+        aside {
+            background-color: white;
+            width: 500px;
+            margin: auto;
+            border: 1px solid black;
+            padding: 20px;
+            max-width: 200px;
         }
     </style>
 </head>
+
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium consequuntur sint ducimus nesciunt optio quos. Aliquid voluptates obcaecati, illo quia ea porro maxime ratione fugiat repudiandae minus corrupti ab! Quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sunt, itaque, nam iure tempore repellat minima numquam, fugit nulla quam qui sapiente voluptas? Velit minima harum obcaecati possimus, animi numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nobis? Ullam doloremque labore sit recusandae ex et culpa deleniti aut, corporis dolor iusto magnam impedit vero quos hic distinctio doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Error culpa perspiciatis eius iure, nesciunt blanditiis perferendis sit at harum itaque distinctio eveniet magnam necessitatibus nisi, eligendi laboriosam enim, ea voluptatem.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium consequuntur sint ducimus nesciunt optio
+        quos. Aliquid voluptates obcaecati, illo quia ea porro maxime ratione fugiat repudiandae minus corrupti ab!
+        Quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sunt, itaque, nam iure tempore repellat
+        minima numquam, fugit nulla quam qui sapiente voluptas? Velit minima harum obcaecati possimus, animi numquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nobis? Ullam doloremque labore sit recusandae ex
+        et culpa deleniti aut, corporis dolor iusto magnam impedit vero quos hic distinctio doloribus? Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. Error culpa perspiciatis eius iure, nesciunt blanditiis perferendis sit
+        at harum itaque distinctio eveniet magnam necessitatibus nisi, eligendi laboriosam enim, ea voluptatem.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, illum dolore! Eum eligendi deserunt id autem
+        fugit debitis corrupti illo possimus velit, accusantium, natus similique enim labore necessitatibus eveniet
+        odit!Loremlorem
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus ipsam consequuntur nam tenetur vero eos
+        animi sed quasi, exercitationem itaque nihil libero quam quia quis vitae ducimus illum? Amet, Lorem ipsum dolor
+        sit amet, consectetur adipisicing elit. Excepturi illum nemo voluptate libero tempore. Impedit facere labore
+        iusto? Dolorem ex recusandae corrupti eius v
     </main>
+    <aside>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam aspernatur nostrum, recusandae atque quia at
+            aliquid expedita consequuntur sapiente nulla adipisci libero iure dolor totam amet porro consectetur dolore?
+            Nihil.</p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officiis quisquam, repudiandae similique
+        veniam distinctio corporis labore eaque inventore blanditiis ex non optio sunt ad praesentium delectus quam, et
+        quis?
+    </aside>
 </body>
+
 </html>
