@@ -17,7 +17,7 @@ header > h1{
     text-align: center;
 }
 menu{
-    display: block;
+    display: none;
 }
 menu > ul{
     list-style-type: none;
