@@ -6,23 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            background: black;
+            color: white;
+        }
         div.container {
-            border: 3px solid rgb(68, 63, 63);
-            height: 250px;
+            border: 3px solid rgb(248, 0, 0);
             display: grid;
-
-            grid-template: auto auto auto / auto auto auto;
-            /*Shorthand de grid-template-rows, grid-template-columns*/
+            grid-template-rows: repeat(3, 80px);
+            grid-template-columns: 1fr 4fr 1fr;
+            grid-auto-flow: row;
+            grid-auto-rows: 60px;
+            grid-auto-columns: 120px;
             place-items: normal normal;
             place-content: normal normal;
-            /*
-            shorthand de align items, align-content, justify  items e justify content. 
-             
-            primeiro vem o align e depois o justify*/
+            gap: 15px;
         }
 
         div.item {
-            border: 2px solid black;
+            border: 2px solid rgb(255, 255, 255);
         }
     </style>
 </head>
@@ -36,6 +38,9 @@
         <div class="item">E</div>
         <div class="item">F</div>
         <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+        <div class="item">J</div>
     </div>
 </body>
 

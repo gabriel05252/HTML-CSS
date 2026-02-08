@@ -11,14 +11,11 @@
             height: 250px;
             display: grid;
 
-            grid-template: auto auto auto / auto auto auto;
-            /*Shorthand de grid-template-rows, grid-template-columns*/
-            place-items: normal normal;
-            place-content: normal normal;
-            /*
-            shorthand de align items, align-content, justify  items e justify content. 
-             
-            primeiro vem o align e depois o justify*/
+
+            grid-template: repeat(3, auto) / repeat(3, auto);
+            place-items: start center;
+            place-content: space-between end;
+            gap: 15px;
         }
 
         div.item {
@@ -36,6 +33,7 @@
         <div class="item">E</div>
         <div class="item">F</div>
         <div class="item">G</div>
+        <div class="item">H</div>
     </div>
 </body>
 
