@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(15, 14, 14);
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: white;
+            
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(8, 8, 8);
+            padding: 40px;
+            border-radius: 40px;
+        }
+        label{
+            color: rgb(255, 255, 255);
+            font-size: 0.2px;
+            
+        }
+        form h1{
+            text-align: center;
+        }
+        form input{
+            margin-top: 20px;
+            padding: 5px;
+            background-color: transparent;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="cadastro.php">
+              <h1>Login</h1>
+              <label for="iilogin">Login</label>
+                <input type="text" name="login" id="iilogin" placeholder="login" required>
+                <label for="ipassword">Senha</label>
+                <input type="password" 
+                name="password" id="ipassword" placeholder="senha" required>
+                <p>
+                    esqueceu sua <a href="#">senha?</a>
+                </p>
+                <div>
+                    <button type="submit">Login</button>
+                </div>
+        </form>
+    </div>
+</body>
+</html>
